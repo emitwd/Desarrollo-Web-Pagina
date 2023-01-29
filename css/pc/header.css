@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'arial';
+}
+
+/* header */
+.header{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(100deg, rgb(255, 137, 137), blue);
+}
+
+/* barra de navegacion del header */
+.header .navbar{
+    position: sticky;
+    z-index: 20;
+    top: 0;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10%;
+}
+
+.header .navbar .logo{
+    color: rgb(148, 148, 148);
+    font-variant: small-caps;
+}
+
+.header .navbar .nav_links a{
+    text-decoration: none;
+    color: #000000;
+    padding: 1rem;
+    font-variant: small-caps;
+}
+
+.header .navbar .nav_links a:hover{
+   color: #000;
+}
+
+/* contendido del header */
+.header section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(100deg, #ff00005e, transparent);
+    top: 0;
+    left: 0;
+    height: 90%;
+}
+.header section div{
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-variant: small-caps;
+}
+
+.header section img{
+    height: 20rem;
+    padding: 1rem;
+}
+
+.header .svg_wave{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
