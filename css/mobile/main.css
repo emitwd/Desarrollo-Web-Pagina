@@ -1,25 +1,17 @@
-@media screen and (max-width: 700px) {
-
-    /* header */
-    .header {
-        height: 60vh;
-    }
-
-    .header section img {
-        height: 10rem;
-        padding: 1rem;
-    }
-
-
-}
-
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
 
     /* header */
 
     .header {
-        height: 70vh;
+        height: 400px;
+    }
+
+    .header .navbar .logo{
+        font-size: .7rem;
+    }
+    
+    .header .navbar .nav_links a{
+        font-size: .6rem;
     }
 
     .header section {
@@ -34,6 +26,7 @@
     .header section img {
         height: 10rem;
     }
+    
 
     /* contenedor */
     .contenedor {
@@ -80,16 +73,4 @@
         height: 10rem;
     }
 
-}
-
-@media screen and (max-width: 450px) {
-    /* header */
-
-    .header {
-        height: 50vh;
-    }
-
-    .header section img {
-        height: 6rem;
-    }
 }
